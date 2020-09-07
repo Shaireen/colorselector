@@ -4,9 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <input type="color" />
+    <article class="colordisplay">
+      <div class="colorvisual"></div>
+      <div class="colornumerical">
+        <p class="hexcolor">HEX: <span>#000000</span></p>
+        <p class="rgbcolor">RGB: <span>0, 0, 0</span></p>
+        <p class="hslcolor">HSL: <span>0, 0%, 0%</span></p>
+      </div>
+      <input type="color" class="colorpicker" />
+    </article>
+
     <script src="script.js"></script>
   </body>
 </html>
