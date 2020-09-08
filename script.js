@@ -9,13 +9,9 @@ function start() {
 function delegateFunctions() {
   //console.log(event.target.value);
   changeDisplay();
-  checkChosenColor();
   displayHex();
-  hexToRGB();
   displayRGB();
-  rgbToHsl();
   displayHSL();
-  rgbToCss();
 }
 
 function checkChosenColor() {
@@ -44,7 +40,7 @@ function hexToRGB() {
 
 function rgbToCss() {
   return (
-    "rgb(" + hexToRGB().r + ", " + hexToRGB().g + ", " + hexToRGB().b + ");"
+    "rgb(" + hexToRGB().r + ", " + hexToRGB().g + ", " + hexToRGB().b + ")"
   );
 }
 
