@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 .colordisplay {
-  width: 800px;
-  margin: auto;
-  background-color: seashell;
-  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  margin-top: 7%;
+  padding: 100px 20px;
   border-radius: 10px;
 }
 .colorvisual {
@@ -17,4 +17,12 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+}
+
+select,
+label {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  width: 200px;
+  margin-bottom: 100px;
 }
